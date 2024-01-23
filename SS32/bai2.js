@@ -1,0 +1,28 @@
+let infor = {
+    id: 1,
+    name: 'A',
+    age: 18,
+    phone: "089844535",
+    address: "Hà Đông, Hà Nội",
+};
+
+// infor.id = prompt("Nhập Id");
+// infor.name = prompt("Nhập tên");
+// infor.age = prompt("Nhập tuổi");
+// infor.phone = prompt("Nhập số điện thoại");
+// infor.address = prompt("Nhập địa chỉ");
+
+delete infor.address;
+infor.email = "quynhh07@gmail.com"
+
+// console.log("__THÔNG TIN CÁ NHÂN__");
+// console.log("ID: " + infor.id);
+// console.log("Tên: " + infor.name);
+// console.log("Tuổi: " + infor.age);
+// console.log("Địa chỉ: " + infor.address);
+// console.log("Số điện thoại: " + infor.phone);
+
+console.log(infor);
+
+
+
